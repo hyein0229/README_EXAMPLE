@@ -1,5 +1,6 @@
 # 📕프로젝트 소개
-전북대학교 학생들을 위한 챗봇 서비스 개발입니다.
+2022 오픈소스 소프트웨어 개발 과제를 위해 프로젝트가 진행되었습니다.<br>
+전북대학교 학생들을 위한 챗봇 서비스를 개발하였습니다.
 
 📌 Tools & Language 📌<br>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>
@@ -32,9 +33,16 @@
 - '이번주 뭐 나와' 를 입력하면 주간 메뉴🥄의 평가 결과를 보여준다.<br>
 - '학과 사무실' 을 입력하고 원하는 학과 이름을 영문으로 입력하면 📣학과사무실의 위치📣를 알려준다.<br>
 <br>
-<br>
 
-# 기능 구현
+# ⚡구현한 기능
+### <랜덤 인사하기>
+
+### <학사일정 안내하기>
+
+### <식단 안내 및 평가하기>
+
+### <학과 사무실 안내하기>
+
 
 # 🛠프로젝트 세팅 방법
 repository를 clone 해오거나 zip을 다운받아 압축을 해제하여 작업공간에 코드를 가져옵니다.<br>
@@ -52,8 +60,8 @@ npm install 하여 package.json 에 있는 패키지들을 설치하여 환경�
       npm install -production    
       
 # 👬협업 컨벤션 세팅
-ESLint를 사용한 코드 컨벤션을 검사.<br>
-기본적으로 Airbnb 규칙을 기반으로 ESLint를 수행하고 추가된 규칙은 eslintrc.js 에 설정.
+ESLint를 사용한 코드 컨벤션을 검사하였습니다.<br>
+기본적으로 Airbnb 규칙을 기반으로 ESLint를 수행하고 추가된 규칙은 eslintrc.js 에 설정하였습니다.
 - ESLint 세팅:
 
         sudo npm install -g eslint eslint-config-airbnb-base eslint-plugin-import
@@ -61,7 +69,7 @@ ESLint를 사용한 코드 컨벤션을 검사.<br>
         npx install-peerdeps --dev eslint-config-airbnb
         eslintrc.js 에 'extends': ['airbnb-base'] 추가 
         
-커밋 템플릿 사용
+커밋 메세지 양식을 통일하기 위해 커밋 템플릿을 사용하였습니다.
 <details>
     <summary>커밋 템플릿 양식 보기</summary>
       
@@ -91,10 +99,11 @@ ESLint를 사용한 코드 컨벤션을 검사.<br>
       ################
 
 </details>
+      
 - 커밋 템플릿 설정 방법:
       
-      vim .gitmessage.txt (커밋 템플릿 양식 넣기)
-      git config --global commit.template .gitmessage.txt
+       vim .gitmessage.txt (커밋 템플릿 양식 넣기)
+       git config --global commit.template .gitmessage.txt
 
 
 
