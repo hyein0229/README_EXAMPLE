@@ -82,9 +82,13 @@ npm install 하여 package.json 에 있는 의존성 패키지들을 설치하�
       npm install --production  
       
  단위 테스트 진행을 위해선 Node.js 테스트 프레임워크인 Mocha를 설치합니다.<br>
- -g 옵션을 주면 패키지가 전역으로 설치되어 모든 프로젝트에 적용됩니다.
+ - -g 옵션을 주면 패키지가 전역으로 설치되어 모든 프로젝트에 적용됩니다.
  
-      sudo npm install mocha -g 
+       sudo npm install mocha -g
+ 
+ - 또는, 해당 프로젝트에만 설치할 시엔
+ 
+       npm install mocha --save-dev
       
 # 👬협업 컨벤션 세팅
 ESLint를 사용한 코드 컨벤션을 검사하였습니다.<br>
