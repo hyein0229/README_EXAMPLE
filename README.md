@@ -76,7 +76,8 @@ npm install 하여 package.json 에 있는 의존성 패키지들을 설치하�
 
       npm install 
 
-- devDependencies 제외하고 설치:
+- devDependencies 제외하고 설치:<br>
+  ⚠️ package.json 에서 'prepare': 'husky install' 은 삭제하고 설치해야함 
 
       npm install --production  
       
