@@ -134,6 +134,9 @@ ESLint를 사용한 코드 컨벤션을 검사하였습니다.<br>
       
        vim .gitmessage.txt (커밋 템플릿 양식 넣기)
        git config --global commit.template .gitmessage.txt
+       
+# 🐥외부 리소스
+- Levenshtein distance 라이브러리
 
 
 
