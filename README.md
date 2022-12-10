@@ -28,7 +28,7 @@
 |:-----:|:-----:|:-----: |
  **Github**: [hyein0229](https://github.com/hyein0229) | **Github**: [suhsein](https://github.com/suhsein) | **Github**: [Jinnyzinny](https://github.com/Jinnyzinny) |
 | **구현 기능** | **구현 기능** | **구현 기능** | 
-|  단위 테스트 <br> 학사일정 <br> 식단 안내 |  단위 테스트 <br> 학과사무실 안내 <br> |  랜덤 인사 <br> 학사일정 <br> 식단 평가  |
+|  단위 테스트 <br> 학사일정 <br> 식단 안내 |  단위 테스트 <br> 학과사무실 안내 <br> |  랜덤 인사 <br> 학사일정 <br> 학과 사무실 안내 <br> 식단 평가  |
 <br>
 
 # ⚡구현한 기능
