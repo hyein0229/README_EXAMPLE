@@ -10,6 +10,7 @@
 <br>
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/>
 <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=ESLint&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Mocha-8D6748?style=flat&logo=Mocha&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=flat&logo=GitHub Actions&logoColor=white"/>
 
 
