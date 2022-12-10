@@ -64,7 +64,13 @@ ESLint를 사용한 코드 컨벤션을 검사하였습니다.<br>
         sudo npm install -g eslint eslint-config-airbnb-base eslint-plugin-import
         eslint --init
         npx install-peerdeps --dev eslint-config-airbnb
-        eslintrc.js 에 'extends': ['airbnb-base'] 추가 
+        eslintrc.js 에 'extends': ['airbnb-base'] 추가
+        
+- ESLint 강제를 위해 husky를 사용하여 commit 시에 자동으로 코드 컨벤션을 검사하도록 하였습니다.
+      
+        npx husky-init && npm install
+        npx husky add .husky/pre-commit 'eslint . --ext .js'
+      
         
 커밋 메세지 양식을 통일하기 위해 커밋 템플릿을 사용하였습니다.
 <details>
