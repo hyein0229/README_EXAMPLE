@@ -1,5 +1,0 @@
-test 22
-conflict solved
-pull 하였을 때 conflict
-merge conflict test
-push test
